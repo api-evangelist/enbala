@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enbala.png
 name: Enbala
-description: Enbala Power Networks was a distributed-energy-resource (DER) and grid-flexibility
-  software company (Concerto DER management platform). It was surfaced as an obvious-ventures
-  portfolio company and added to the API Evangelist network as a stub for enrichment. As of the
-  2026-07-19 enrichment pass the company has no live public developer or API presence. enbala.com
-  serves an expired TLS certificate and 301-redirects to www.generacgs.com (Generac Grid Services),
-  which no longer resolves in DNS. No OpenAPI, docs host, developer portal, SDK, MCP server, or
-  webhook surface could be located. Treat this profile as a defunct/acquired lead rather than an
-  active API provider.
+description: Enbala Power Networks was a distributed-energy-resource (DER) and grid-flexibility software
+  company (Concerto DER management platform). It was surfaced as an obvious-ventures portfolio company
+  and added to the API Evangelist network as a stub for enrichment. As of the 2026-07-19 enrichment pass
+  the company has no live public developer or API presence. enbala.com serves an expired TLS certificate
+  and 301-redirects to www.generacgs.com (Generac Grid Services), which no longer resolves in DNS. No
+  OpenAPI, docs host, developer portal, SDK, MCP server, or webhook surface could be located. Treat this
+  profile as a defunct/acquired lead rather than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/enbala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,12 +37,12 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: defunct-redirect
-x-status-evidence: 'enbala.com TLS cert expired; HTTP 301 -> https://www.generacgs.com/ (Generac Grid
-  Services), which returns NXDOMAIN; no reachable API/docs surface as of 2026-07-19.'
+x-status: defunct
+x-status-evidence: enbala.com TLS cert expired; HTTP 301 -> https://www.generacgs.com/ (Generac Grid Services),
+  which returns NXDOMAIN; no reachable API/docs surface as of 2026-07-19.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Energy
